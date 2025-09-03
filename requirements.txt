@@ -1,2 +1,7 @@
-pandas 
--e .
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+pandas
+# -e .
