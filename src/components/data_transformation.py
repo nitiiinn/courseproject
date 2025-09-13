@@ -81,7 +81,7 @@ class DataTransformation:
             test_arr=np.c_[input_feature_test_arr,np.array(target_feature_test_df)] 
 
             return (train_arr,
-                    test_arr,self.data_transformation_config.preprocessor_obj_file_path)
+                    test_arr,)
         
         except Exception as e:
             raise customException(e,sys)
